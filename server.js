@@ -63,7 +63,7 @@ function errorNotification(err, str, req, res) {
     //console.log(err);
 }
 //listen to requests
-app.listen(1000);
+app.listen(1000,'https://thawing-dawn-11214.herokuapp.com/');
 
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
