@@ -1,0 +1,5 @@
+{"EVENT":"Failed to validate request body","REQUEST":{"error":[{"code":null,"reason":"strict","message":"should not contains property [\"pnumber\"]","property":"@"},{"code":null,"reason":"optional","message":"is missing and not optional","property":"@.pNumber"}],"valid":false},"level":"error","message":"","timestamp":"2018-6-10 03:11:57"}
+{"RESPONSE":{"status":422,"message":"Invalid data!"},"STATUS":422,"level":"error","message":"","timestamp":"2018-6-10 03:11:57"}
+{"EVENT":"Failed to validate request body","REQUEST":{"username":"abc","email":"abc@gmail.com","password":"123","pnumber":456789},"level":"error","message":"","timestamp":"2018-6-10 03:16:26"}
+{"RESPONSE":{"status":422,"message":"Invalid data!"},"STATUS":422,"level":"error","message":"","timestamp":"2018-6-10 03:16:26"}
+{"RESPONSE":{"status":404,"message":"Incorrect username or password!"},"STATUS":404,"level":"error","message":"","timestamp":"2018-6-10 20:39:14"}
